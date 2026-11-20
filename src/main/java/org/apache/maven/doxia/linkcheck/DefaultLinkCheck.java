@@ -345,7 +345,7 @@ public final class DefaultLinkCheck
      * Returns the excluded HTTP errors, i.e. <code>404</code>.
      *
      * @return int[]
-     * @see {@link HttpStatus} for all possible values.
+     * @see {@link org.apache.hc.core5.http.HttpStatus} for all possible values.
      */
     private int[] getExcludedHttpStatusErrors()
     {
@@ -356,7 +356,7 @@ public final class DefaultLinkCheck
      * Returns the excluded HTTP warnings, i.e. <code>301</code>.
      *
      * @return int[]
-     * @see {@link HttpStatus} for all possible values.
+     * @see {@link org.apache.hc.core5.http.HttpStatus} for all possible values.
      */
     private int[] getExcludedHttpStatusWarnings()
     {
